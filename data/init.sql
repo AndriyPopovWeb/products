@@ -1,0 +1,10 @@
+CREATE DATABASE test;
+
+use test;
+
+CREATE TABLE products (
+	id INT(11) UNSIGNED AUTO_INCREMENT PRIMARY KEY, 
+	product_name VARCHAR(50) NOT NULL,
+	qty INT(11),
+	warehouse VARCHAR(50) NOT NULL
+);
